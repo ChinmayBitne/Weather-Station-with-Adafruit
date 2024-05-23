@@ -2,12 +2,19 @@
 Welcome to the Weather Station with Adafruit project! This project combines IoT technology, environmental sensing, and web development to create a comprehensive weather monitoring system. Using an ESP8266 NodeMCU and a DHT11 sensor, this weather station collects real-time data on temperature, and humidity. The data is then displayed on an OLED screen and can be uploaded to the Adafruit IO platform for remote monitoring. Additionally, the project features a web interface for data visualization and management.
 
 **Features**
+
 🌡 Real-Time Environmental Sensing: Collect temperature, humidity, and pressure data.
+
 📡 WiFi Connectivity: Upload sensor data to Adafruit IO for IoT applications.
+
 🌐 Web Interface: Visualize data through a custom web page, including real-time updates.
+
 📊 Database Management: Store historical sensor data for trend analysis.
+
 🔒 Automated Testing: Ensure reliability of the web platform with Selenium tests.
-🛠 Easy Customization: Tailor the project to meet specific monitoring needs.
+
+🛠 Easy Customization: Tailor the project to meet specific monitoring needs
+
 
 **Components**
 ESP8266 NodeMCU
