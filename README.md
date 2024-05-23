@@ -17,18 +17,21 @@ Welcome to the Weather Station with Adafruit project! This project combines IoT 
 
 
 **Components**
+
 ESP8266 NodeMCU
 DHT11 sensor for temperature, and humidity
 OLED Display
 Breadboard and jumper wires
 
 **Setup and Installation**
-Hardware Assembly: Connect the DHT11 sensor and OLED display to the ESP8266 according to the wiring diagram.
-Software Configuration: Upload the Arduino sketch (Weather_Station.ino) to the ESP8266.
-Web and Database Setup: Deploy the PHP scripts on your web server and create the MySQL database using the schema.
-Adafruit IO Setup: Create an account on Adafruit IO and configure the feed for receiving sensor data.
+
+_Hardware Assembly:_ Connect the DHT11 sensor and OLED display to the ESP8266 according to the wiring diagram.
+_Software Configuration:_ Upload the Arduino sketch (Weather_Station.ino) to the ESP8266.
+_Web and Database Setup:_ Deploy the PHP scripts on your web server and create the MySQL database using the schema.
+_Adafruit IO Setup:_ Create an account on Adafruit IO and configure the feed for receiving sensor data.
 
 **Usage**
+
 The OLED display will show real-time sensor readings once the device is powered up.
 Data is uploaded to Adafruit IO automatically for remote monitoring.
 Access the web interface via your web server's URL to view historical data and trends.
