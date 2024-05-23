@@ -26,9 +26,13 @@ Breadboard and jumper wires
 **Setup and Installation**
 
 _Hardware Assembly:_ Connect the DHT11 sensor and OLED display to the ESP8266 according to the wiring diagram.
+
 _Software Configuration:_ Upload the Arduino sketch (Weather_Station.ino) to the ESP8266.
+
 _Web and Database Setup:_ Deploy the PHP scripts on your web server and create the MySQL database using the schema.
+
 _Adafruit IO Setup:_ Create an account on Adafruit IO and configure the feed for receiving sensor data.
+
 
 **Usage**
 
